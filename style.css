@@ -31,7 +31,7 @@ nav {
   justify-content: space-between;
   height: 80px;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 6rem;
 }
 
 nav ul {
@@ -290,4 +290,61 @@ nav ul li a:active {
 
 .content span {
   font-size: 20px;
+}
+
+.testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(assets/img/back-customers.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.testimony-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.testimony-content span {
+  font-size: 120px;
+  height: 60px;
+  font-weight: bold;
+}
+
+.testimony-content p {
+  line-height: 145%;
+}
+
+.testimony-content div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimony-content div img {
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.testimony-content div p {
+  font-weight: bold;
 }
