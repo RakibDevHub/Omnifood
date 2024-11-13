@@ -456,3 +456,93 @@ nav ul li a:active {
   /* color: #e67e22 !important; */
   background-color: #bc6417 !important;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 40%;
+}
+
+.form-content {
+  font-size: 18px;
+}
+
+.form-content label {
+  width: 100%;
+}
+
+[type="text"],
+[type="email"],
+textarea {
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  padding: 0.4rem 0.5rem;
+}
+
+.form-btn {
+  color: #fff;
+  background: #e67e22;
+  padding: 0.5rem 2rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  font-size: 18px;
+}
+
+.form-btn:hover {
+  color: #fff;
+  background-color: #bc6417;
+}
+
+footer {
+  background: #333;
+  color: #888;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  color: #fff;
+}
+
+.footer-links li a {
+  color: #888;
+  font-size: 16px;
+}
+.footer-social li a span {
+  color: #888;
+  font-size: 24px;
+}
+
+.footer-links li a:hover,
+.footer-social li a span:hover {
+  color: #fff;
+}
+
+footer p {
+  font-size: 14px;
+}
